@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '4-2-Shapes-GreenCircle' target in the '4-2-Shapes-GreenCircle' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

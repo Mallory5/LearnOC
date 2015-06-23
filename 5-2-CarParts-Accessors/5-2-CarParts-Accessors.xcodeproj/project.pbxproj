@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53C9D9B81AE9ECE200BAA52F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C9D9B71AE9ECE200BAA52F /* Foundation.framework */; };
+		53C9D9BB1AE9ECE200BAA52F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C9D9BA1AE9ECE200BAA52F /* main.m */; };
+		53C9D9BF1AE9ECE200BAA52F /* __2_CarParts_Accessors.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 53C9D9BE1AE9ECE200BAA52F /* __2_CarParts_Accessors.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		53C9D9B11AE9ECE200BAA52F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				53C9D9BF1AE9ECE200BAA52F /* __2_CarParts_Accessors.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		53C9D9B31AE9ECE200BAA52F /* 5-2-CarParts-Accessors */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5-2-CarParts-Accessors"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C9D9B71AE9ECE200BAA52F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		53C9D9BA1AE9ECE200BAA52F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53C9D9BD1AE9ECE200BAA52F /* 5-2-CarParts-Accessors-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "5-2-CarParts-Accessors-Prefix.pch"; sourceTree = "<group>"; };
+		53C9D9BE1AE9ECE200BAA52F /* __2_CarParts_Accessors.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = __2_CarParts_Accessors.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53C9D9B01AE9ECE200BAA52F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C9D9B81AE9ECE200BAA52F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53C9D9A81AE9ECE200BAA52F = {
+			isa = PBXGroup;
+			children = (
+				53C9D9B91AE9ECE200BAA52F /* 5-2-CarParts-Accessors */,
+				53C9D9B61AE9ECE200BAA52F /* Frameworks */,
+				53C9D9B41AE9ECE200BAA52F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53C9D9B41AE9ECE200BAA52F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53C9D9B31AE9ECE200BAA52F /* 5-2-CarParts-Accessors */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53C9D9B61AE9ECE200BAA52F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53C9D9B71AE9ECE200BAA52F /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53C9D9B91AE9ECE200BAA52F /* 5-2-CarParts-Accessors */ = {
+			isa = PBXGroup;
+			children = (
+				53C9D9BA1AE9ECE200BAA52F /* main.m */,
+				53C9D9BE1AE9ECE200BAA52F /* __2_CarParts_Accessors.1 */,
+				53C9D9BC1AE9ECE200BAA52F /* Supporting Files */,
+			);
+			path = "5-2-CarParts-Accessors";
+			sourceTree = "<group>";
+		};
+		53C9D9BC1AE9ECE200BAA52F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53C9D9BD1AE9ECE200BAA52F /* 5-2-CarParts-Accessors-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53C9D9B21AE9ECE200BAA52F /* 5-2-CarParts-Accessors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53C9D9C21AE9ECE200BAA52F /* Build configuration list for PBXNativeTarget "5-2-CarParts-Accessors" */;
+			buildPhases = (
+				53C9D9AF1AE9ECE200BAA52F /* Sources */,
+				53C9D9B01AE9ECE200BAA52F /* Frameworks */,
+				53C9D9B11AE9ECE200BAA52F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "5-2-CarParts-Accessors";
+			productName = "5-2-CarParts-Accessors";
+			productReference = 53C9D9B31AE9ECE200BAA52F /* 5-2-CarParts-Accessors */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53C9D9AA1AE9ECE200BAA52F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Keith;
+			};
+			buildConfigurationList = 53C9D9AD1AE9ECE200BAA52F /* Build configuration list for PBXProject "5-2-CarParts-Accessors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53C9D9A81AE9ECE200BAA52F;
+			productRefGroup = 53C9D9B41AE9ECE200BAA52F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53C9D9B21AE9ECE200BAA52F /* 5-2-CarParts-Accessors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53C9D9AF1AE9ECE200BAA52F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C9D9BB1AE9ECE200BAA52F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		53C9D9C01AE9ECE200BAA52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		53C9D9C11AE9ECE200BAA52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		53C9D9C31AE9ECE200BAA52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "5-2-CarParts-Accessors/5-2-CarParts-Accessors-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53C9D9C41AE9ECE200BAA52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "5-2-CarParts-Accessors/5-2-CarParts-Accessors-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53C9D9AD1AE9ECE200BAA52F /* Build configuration list for PBXProject "5-2-CarParts-Accessors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C9D9C01AE9ECE200BAA52F /* Debug */,
+				53C9D9C11AE9ECE200BAA52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53C9D9C21AE9ECE200BAA52F /* Build configuration list for PBXNativeTarget "5-2-CarParts-Accessors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C9D9C31AE9ECE200BAA52F /* Debug */,
+				53C9D9C41AE9ECE200BAA52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53C9D9AA1AE9ECE200BAA52F /* Project object */;
+}

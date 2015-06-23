@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '2-2-BOOL_n' target in the '2-2-BOOL_n' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

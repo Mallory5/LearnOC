@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '3-8-Shapes-Object' target in the '3-8-Shapes-Object' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
