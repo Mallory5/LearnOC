@@ -1,0 +1,1 @@
+#Xcode##Objective-C.gitignore & Swift.gitignore config##Build generatedbuild/DerivedData##Various setting*.pbxuser!default.pbxuser*.mode1v3!default.mode1v3*.mode2v3!default.prespectivev3xcuserdata.DS_Store.*.sw?*.csotmp*.xcworkspace##Other*.xccheckout*.moved-aside*.xcuserstate##Objective-C/Swift specific*.hmap*.ipa
