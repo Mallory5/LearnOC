@@ -18,7 +18,7 @@ int main(int argc, const char * argv[])
         manager = [NSFileManager defaultManager];
         
         NSString *home;
-        home = [@"~" stringByExpandingTildeInPath];
+        home = [@"~/code" stringByExpandingTildeInPath];
         
         NSDirectoryEnumerator *direnum;
         direnum = [manager enumeratorAtPath: home];
@@ -28,7 +28,7 @@ int main(int argc, const char * argv[])
         
         NSString *fileName;
         while (fileName = [direnum nextObject]) {
-            if ([[fileName pathExtension] isEqualTo: @"jpg"]) {
+            if ([[fileName pathExtension] isEqualTo: @"m"]) {
                 [files addObject: fileName];
             }
         }
@@ -38,7 +38,12 @@ int main(int argc, const char * argv[])
         while (fileName = [fileenum nextObject]) {
             NSLog(@"%@", fileName);
         }
-        NSLog(@"end.........");
+        
+        NSLog(@"\n\n--------------------OR LIKE THIS--------------------\n\n");
+        for (NSInteger i = 0; i < [files count]; i++) {
+            NSLog(@"%@", [files objectAtIndex:i]);
+        }
+        NSLog(@"\n--------------------------END------------------------");
     }
     return 0;
 }
